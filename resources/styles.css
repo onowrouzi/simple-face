@@ -1,0 +1,117 @@
+#container {
+  viewport-fill: "#212121"; /*fb-extra-dark-gray;*/
+}
+
+#background {
+  fill: "#212121";
+}
+
+#time {
+  font-size: 100;
+  font-family: Colfax-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+36;
+  fill: white;
+}
+
+.battery {
+  x: 32%;
+  y: 50%-66;
+  fill-opacity: 0.75;
+  width: 28;
+  height: 28;
+}
+
+#battery-green {
+  fill: green;
+}
+
+#battery-orange {
+  fill: orange;
+}
+
+#battery-red {
+  fill: red;
+}
+
+#battery-txt {
+  x: 16%;
+  y: 50%-44;
+  font-size: 20;
+  font-family: Colfax;
+  text-length: 32;
+  text-anchor: start;
+  fill: #ececec;
+  fill-opacity: 0.75;
+}
+
+#date {
+  font-size: 30;
+  font-family: Colfax-Thin;
+  text-length: 32;
+  text-anchor: end;
+  x: 80%;
+  y: 50%+62;
+  fill: white;
+}
+
+.corner-info {
+  font-size: 30;
+  font-family: Colfax-Light;
+  text-length: 32;
+  fill: white;
+}
+
+#heart-rate {
+  text-anchor: end;
+  x: 100%-36;
+  y: 100%-5;
+}
+
+#hr-icon {
+  x: 100%-30;
+  y: 100%-28;
+  width: 24;
+  height: 24;
+}
+
+#steps {
+  text-anchor: start;
+  x: 28;
+  y: 100%-5;
+}
+
+#steps-icon {
+  x: 5;
+  y: 100%-30;
+  width: 24;
+  height: 24;
+}
+
+#calories {
+  text-anchor: start;
+  x: 32;
+  y: 26;
+}
+
+#fire-icon {
+  x: 5;
+  y: 5;
+  width: 24;
+  height: 24;
+}
+
+#weather {
+  text-anchor: end;
+  x: 100%-32;
+  y: 24;
+}
+
+#weather-icon {
+  x: 100%-28;
+  y: 3;
+  width: 26;
+  height: 24;
+}

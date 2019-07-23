@@ -1,0 +1,38 @@
+{
+  "fitbit": {
+    "appUUID": "2e15c367-203c-44a0-b47e-91b6d7aa0f5c",
+    "appType": "clockface",
+    "appDisplayName": "Simple Face",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_user_profile",
+      "access_heart_rate",
+      "access_activity",
+      "access_location",
+      "access_internet",
+      "run_background",
+      "access_exercise"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Simple Face"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0",
+    "@fitbit/sdk-cli": "^1.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "fitbit-weather": "^0.2.0"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}

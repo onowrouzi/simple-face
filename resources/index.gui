@@ -1,0 +1,22 @@
+<svg id="container" class="background">
+  <rect id="background" width="100%" height="100%" x="0" y="0"/>
+  <image id="fire-icon" class="icon" href="fire.png" />
+  <text class="corner-info" id="calories" />
+  <image id="weather-icon" class="icon" href="weather.png" />
+  <text class="corner-info" id="weather" />
+  <image id="battery-100" class="battery" href="battery-100.png" />
+  <image id="battery-75" class="battery" href="battery-75.png" />
+  <image id="battery-50" class="battery" href="battery-50.png" />
+  <image id="battery-25" class="battery" href="battery-25.png" />
+  <!-- <rect class="battery" id="battery-green" width="30" height="8" />
+  <rect class="battery" id="battery-orange" width="20" height="8" />
+  <rect class="battery" id="battery-red" width="10" height="8" /> -->
+  <text id="battery-txt" />
+  <text id="date" />
+  <text id="time" />
+  <image id="hr-icon" class="icon" href="pulse.png" />
+  <text class="corner-info" id="heart-rate" />
+  <image id="steps-icon" class="icon" href="footsteps.png" />
+  <text class="corner-info" id="steps" />
+</svg>
+ 
